@@ -8,7 +8,7 @@ export const loadUsersAction = async (page:number) => {
                     page
                 },
                 headers: {
-                    'x-api-key': 'pro_bb8df14456337247ebd96260f4f9d43d45bb45cbe5bef755cd6bd0e49a591744'
+                    'x-api-key': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
                 }
             }
         )
