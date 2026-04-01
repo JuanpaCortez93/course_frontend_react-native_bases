@@ -1,13 +1,8 @@
-import { useState } from "react"
+import useCounter from "../hooks/useCounter"
 
 const Counter = () => {
   
-  const [count, setCount] = useState<number>(10);
-  
-  const increaseBy = (num:number) => {
-    setCount(current => current + num);
-  }
-  const decreaseBy = (num:number) => setCount( count - num );
+  const { count, increaseBy, decreaseBy } = useCounter();
 
   return (
     <>
