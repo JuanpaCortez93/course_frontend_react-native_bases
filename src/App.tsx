@@ -1,14 +1,14 @@
 import './App.css'
-import BasicTypes from './BasicTypes'
-import ObjectLiteral from './ObjectLiteral'
+import BasicFunctions from './BasicFunctions'
 
 function App() {
 
   return (
     <>
       <h1>Hello world!</h1>   
-      <BasicTypes></BasicTypes>
-      <ObjectLiteral/>
+      {/* <BasicTypes></BasicTypes> */}
+      {/* <ObjectLiteral/> */}
+      <BasicFunctions/>
     </>
   )
 }
