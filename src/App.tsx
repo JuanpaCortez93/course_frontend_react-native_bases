@@ -1,5 +1,4 @@
 import './App.css'
-import BasicFunctions from './BasicFunctions'
 
 function App() {
 
@@ -8,7 +7,7 @@ function App() {
       <h1>Hello world!</h1>   
       {/* <BasicTypes></BasicTypes> */}
       {/* <ObjectLiteral/> */}
-      <BasicFunctions/>
+      {/* <BasicFunctions/> */}
     </>
   )
 }
