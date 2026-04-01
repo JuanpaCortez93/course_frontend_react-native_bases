@@ -1,17 +1,26 @@
 import './App.css'
-import Counter from './components/Counter'
+import UsersPage from './components/UsersPage'
+import { AuthProvider } from './context/AuthContext'
 
 function App() {
 
   return (
     <>
-      <div className="flex justify-center items-center">
-        <h1 className='text-4xl mb-5'>Hello world!</h1>   
-      </div>
-      {/* <BasicTypes></BasicTypes> */}
-      {/* <ObjectLiteral/> */}
-      {/* <BasicFunctions/> */}
-      <Counter/>
+
+      <AuthProvider>
+        <div className="flex justify-center items-center">
+          {/* <h1 className='text-4xl mb-5'>Hello world!</h1>    */}
+          {/* <BasicTypes></BasicTypes> */}
+          {/* <ObjectLiteral/> */}
+          {/* <BasicFunctions/> */}
+          {/* <Counter/> */}
+          {/* <LoginPage></LoginPage> */}
+          <UsersPage/>
+        </div>
+      </AuthProvider>
+
+
+
     </>
   )
 }
